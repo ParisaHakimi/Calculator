@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  list-style: none;
+}
+#header {
+  width: 100%;
+  background-color: rgb(15, 15, 15);
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 70px;
+}
+.logo-section {
+  display: flex;
+  width: 18%;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 1.7rem;
+}
+.btn {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #666;
+  color: #fff;
+  cursor: pointer;
+  border: 0px;
+}
+.sign-up {
+  background-color: #46cf72;
+  color: #333;
+}
+#calculator {
+  background-color: #333;
+  margin: 20px auto;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+#display {
+  width: 100%;
+  text-align: right;
+  font-size: 2rem;
+  color: #fff;
+}
+.row {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.row button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  border: none;
+  background-color: #666;
+  color: aliceblue;
+}
+.row > .operator {
+  background-color: rgb(230, 150, 2);
+}
+.row #equals {
+  width: 90%;
+  background-color: lightgrey;
+  color: #333;
+  border-radius: 40px;
+}
